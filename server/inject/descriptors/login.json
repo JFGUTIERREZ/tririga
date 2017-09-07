@@ -26,8 +26,8 @@
     "islogin": {
       "type": "identifier",
       "control": "exist",
-      "selector": "#loginLogo",
-      "frameSelector": "iframe[role=\"presentation\"]"
+      "selector": ".loginTitle",
+      "selectContains": "IBM TRIRIGA"
     }
   },
   "connect": [
