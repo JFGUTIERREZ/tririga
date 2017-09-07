@@ -19,6 +19,15 @@
       "control": "text"
     }
   },
-  "connect": [],
+  "connect": [
+    {
+      "match": [
+        "islogin"
+      ],
+      "screens": [
+        "login"
+      ]
+    }
+  ],
   "selector": "div#loginLogo"
 }
