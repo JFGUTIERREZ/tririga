@@ -27,5 +27,6 @@
         "login"
       ]
     }
-  ]
+  ],
+  "frameSelector": "[src=\"index.jsp\"]"
 }
