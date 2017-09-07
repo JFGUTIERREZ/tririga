@@ -47,6 +47,12 @@
       },
       "selector": ".loginButton",
       "control": "action.button"
+    },
+    "islogin": {
+      "type": "identifier",
+      "selector": ".loginButton",
+      "control": "exists",
+      "selectContains": "Log In"
     }
   },
   "connect": []
