@@ -12,8 +12,12 @@
         },
         "password": {
           "type": "string",
-          "control": "text",
-          "selector": "#passwordField"
+          "control": "action.button",
+          "selector": ".loginButton"
+        },
+        "submit": {
+          "type": "action",
+          "control": "text"
         }
       },
       "frameSelector": "iframe[role=\"presentation\"]"
