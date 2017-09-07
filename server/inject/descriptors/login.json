@@ -27,22 +27,8 @@
         }
       },
       "frameSelector": "iframe[role=\"presentation\"]"
-    },
-    "islogin": {
-      "type": "identifier",
-      "control": "exist",
-      "selector": "div"
     }
   },
-  "connect": [
-    {
-      "match": [
-        "islogin"
-      ],
-      "screens": [
-        "login"
-      ]
-    }
-  ],
+  "connect": [],
   "frameSelector": "[src=\"index.jsp\"]"
 }
