@@ -1,0 +1,53 @@
+{
+  "type": "object",
+  "comment": "Login",
+  "properties": {
+    "username": {
+      "type": "string",
+      "label": "username",
+      "update": {
+        "type": "action",
+        "action": [
+          "submit"
+        ]
+      },
+      "selector": "#userNameField",
+      "control": "text"
+    },
+    "password": {
+      "type": "string",
+      "label": "password",
+      "update": {
+        "type": "action",
+        "action": [
+          "submit"
+        ]
+      },
+      "selector": "#passwordField",
+      "control": "text"
+    },
+    "errorMessage": {
+      "type": "string",
+      "label": "errorMessage",
+      "update": {
+        "type": "none"
+      },
+      "selector": "#loginError",
+      "control": "property.innerText"
+    },
+    "submit": {
+      "type": "action",
+      "parameters": {
+        "username": {
+          "type": "string"
+        },
+        "password": {
+          "type": "string"
+        }
+      },
+      "selector": ".loginButton",
+      "control": "action.button"
+    }
+  },
+  "connect": []
+}
