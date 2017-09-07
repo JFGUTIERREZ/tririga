@@ -4,14 +4,14 @@
   "properties": {
     "loginframe": {
       "type": "object",
-      "selector": "iframe",
       "properties": {
         "username": {
           "type": "string",
           "selector": "iframe",
           "control": "property.innerText"
         }
-      }
+      },
+      "frameSelector": "iframe[role=\"presentation\"]"
     }
   },
   "connect": [
