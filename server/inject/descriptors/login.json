@@ -34,6 +34,15 @@
       "control": "exists"
     }
   },
-  "connect": [],
+  "connect": [
+    {
+      "match": [
+        "isloginview"
+      ],
+      "screens": [
+        "login"
+      ]
+    }
+  ],
   "frameSelector": "[src=\"index.jsp\"]"
 }
