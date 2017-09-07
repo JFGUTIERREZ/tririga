@@ -30,7 +30,7 @@
     },
     "isloginview": {
       "type": "identifier",
-      "selector": "div",
+      "selector": "#loginLogo",
       "control": "exists"
     }
   },
