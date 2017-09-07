@@ -12,7 +12,8 @@
         ]
       },
       "selector": "#userNameField",
-      "control": "text"
+      "control": "text",
+      "frameSelector": "[id=\"loginMain\"]"
     },
     "password": {
       "type": "string",
