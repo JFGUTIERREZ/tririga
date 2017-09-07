@@ -9,6 +9,11 @@
           "type": "string",
           "control": "text",
           "selector": "#userNameField"
+        },
+        "password": {
+          "type": "string",
+          "control": "text",
+          "selector": "#passwordField"
         }
       },
       "frameSelector": "iframe[role=\"presentation\"]"
