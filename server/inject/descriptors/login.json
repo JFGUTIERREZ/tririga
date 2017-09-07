@@ -45,7 +45,7 @@
           "type": "string"
         }
       },
-      "selector": ".loginButton",
+      "selector": "[id=\"loginSubmit\"] input",
       "control": "action.button"
     },
     "islogin": {
