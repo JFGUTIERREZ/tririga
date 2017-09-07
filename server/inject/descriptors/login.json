@@ -46,7 +46,8 @@
         }
       },
       "selector": "[id=\"loginSubmit\"] input",
-      "control": "action.button"
+      "control": "action.button",
+      "frameSelector": "[id=\"loginMain\"]"
     },
     "islogin": {
       "type": "identifier",
