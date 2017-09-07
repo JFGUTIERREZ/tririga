@@ -15,7 +15,8 @@
     },
     "islogin": {
       "type": "identifier",
-      "control": "text"
+      "control": "exist",
+      "selector": "#loginLogo"
     }
   },
   "connect": [
