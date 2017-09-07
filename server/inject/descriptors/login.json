@@ -12,7 +12,7 @@
         ]
       },
       "selector": "#userNameField",
-      "control": "text"
+      "control": "property.innerText"
     },
     "password": {
       "type": "string",
