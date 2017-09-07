@@ -11,7 +11,7 @@
           "submit"
         ]
       },
-      "selector": "#userNameField",
+      "selector": "[id=\"userNameField\"]",
       "control": "text",
       "frameSelector": "[id=\"loginMain\"]"
     },
