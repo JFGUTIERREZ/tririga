@@ -15,7 +15,6 @@
     },
     "islogin": {
       "type": "identifier",
-      "selector": "#userNameField",
       "control": "text"
     }
   },
@@ -28,6 +27,5 @@
         "login"
       ]
     }
-  ],
-  "selector": "div#loginLogo"
+  ]
 }
