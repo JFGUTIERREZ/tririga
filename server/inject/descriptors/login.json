@@ -5,7 +5,13 @@
     "loginframe": {
       "type": "object",
       "selector": "iframe",
-      "properties": {}
+      "properties": {
+        "username": {
+          "type": "string",
+          "selector": "iframe",
+          "control": "property.innerText"
+        }
+      }
     }
   },
   "connect": [
