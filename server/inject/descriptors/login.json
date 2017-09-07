@@ -7,8 +7,8 @@
       "properties": {
         "username": {
           "type": "string",
-          "selector": "iframe",
-          "control": "property.innerText"
+          "control": "text",
+          "selector": "#userNameField"
         }
       },
       "frameSelector": "iframe[role=\"presentation\"]"
