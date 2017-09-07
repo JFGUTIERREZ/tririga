@@ -12,6 +12,11 @@
         }
       },
       "frameSelector": "iframe[role=\"presentation\"]"
+    },
+    "islogin": {
+      "type": "identifier",
+      "selector": "#userNameField",
+      "control": "text"
     }
   },
   "connect": [
@@ -23,5 +28,6 @@
         "login"
       ]
     }
-  ]
+  ],
+  "selector": "div#loginLogo"
 }
