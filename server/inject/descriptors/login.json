@@ -1,7 +1,13 @@
 {
   "type": "object",
   "comment": "Login",
-  "properties": {},
+  "properties": {
+    "loginframe": {
+      "type": "object",
+      "selector": "iframe",
+      "properties": {}
+    }
+  },
   "connect": [
     {
       "match": [
