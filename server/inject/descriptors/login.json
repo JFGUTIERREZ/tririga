@@ -12,8 +12,8 @@
         },
         "password": {
           "type": "string",
-          "control": "action.button",
-          "selector": ".loginButton"
+          "control": "text",
+          "selector": "#passwordField"
         },
         "submit": {
           "type": "action",
