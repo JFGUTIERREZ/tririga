@@ -17,7 +17,8 @@
         },
         "submit": {
           "type": "action",
-          "control": "text"
+          "control": "action.button",
+          "selector": ".loginButton"
         }
       },
       "frameSelector": "iframe[role=\"presentation\"]"
