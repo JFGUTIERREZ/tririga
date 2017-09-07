@@ -26,7 +26,8 @@
     "islogin": {
       "type": "identifier",
       "control": "exist",
-      "selector": "#loginLogo"
+      "selector": "#loginLogo",
+      "frameSelector": "iframe[role=\"presentation\"]"
     }
   },
   "connect": [
