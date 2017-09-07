@@ -66,5 +66,5 @@
       ]
     }
   ],
-  "frameSelector": "[role=\"presentation\"]"
+  "frameSelector": "iframe[role=\"presentation\"]"
 }
