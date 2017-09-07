@@ -19,6 +19,11 @@
           "type": "action",
           "control": "action.button",
           "selector": ".loginButton"
+        },
+        "errorMessage": {
+          "type": "string",
+          "selector": "#loginError",
+          "control": "property.innerText"
         }
       },
       "frameSelector": "iframe[role=\"presentation\"]"
