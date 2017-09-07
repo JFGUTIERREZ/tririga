@@ -50,7 +50,7 @@
     },
     "islogin": {
       "type": "identifier",
-      "selector": ".loginButton",
+      "selector": "[id=\"loginSubmit\"]",
       "control": "exists",
       "selectContains": "Log In"
     }
