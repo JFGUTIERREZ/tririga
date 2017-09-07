@@ -51,8 +51,7 @@
     "islogin": {
       "type": "identifier",
       "selector": "[id=\"loginSubmit\"]",
-      "control": "exists",
-      "selectContains": "Log In"
+      "control": "exists"
     }
   },
   "connect": [
