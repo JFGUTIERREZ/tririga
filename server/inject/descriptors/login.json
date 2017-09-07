@@ -27,6 +27,11 @@
         }
       },
       "frameSelector": "iframe[role=\"presentation\"]"
+    },
+    "isloginview": {
+      "type": "identifier",
+      "selector": "div",
+      "control": "exist"
     }
   },
   "connect": [],
