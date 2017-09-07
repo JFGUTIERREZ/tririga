@@ -1,61 +1,7 @@
 {
   "type": "object",
   "comment": "Login",
-  "properties": {
-    "username": {
-      "type": "string",
-      "label": "username",
-      "update": {
-        "type": "action",
-        "action": [
-          "submit"
-        ]
-      },
-      "selector": "#userNameField",
-      "control": "text"
-    },
-    "password": {
-      "type": "string",
-      "label": "password",
-      "update": {
-        "type": "action",
-        "action": [
-          "submit"
-        ]
-      },
-      "selector": "#passwordField",
-      "control": "text"
-    },
-    "errorMessage": {
-      "type": "string",
-      "label": "errorMessage",
-      "update": {
-        "type": "none"
-      },
-      "selector": "#loginError",
-      "control": "property.innerText"
-    },
-    "submit": {
-      "type": "action",
-      "parameters": {
-        "username": {
-          "type": "string"
-        },
-        "password": {
-          "type": "string"
-        }
-      },
-      "selector": "[id=\"loginSubmit\"] input",
-      "control": "action.button",
-      "frameSelector": "[id=\"loginMain\"]"
-    },
-    "islogin": {
-      "type": "identifier",
-      "selector": "[id=\"loginSubmit\"]",
-      "control": "exists",
-      "frameSelector": "[id=\"loginMain\"]"
-    }
-  },
+  "properties": {},
   "connect": [
     {
       "match": [
@@ -65,6 +11,5 @@
         "login"
       ]
     }
-  ],
-  "frameSelector": "iframe[role=\"presentation\"]"
+  ]
 }
