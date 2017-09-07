@@ -31,8 +31,7 @@
     "islogin": {
       "type": "identifier",
       "control": "exist",
-      "selector": "div",
-      "selectContains": "IBM TRIRIGA"
+      "selector": "div"
     }
   },
   "connect": [
