@@ -40,5 +40,14 @@
       "summary": "Duis dictum ligula ut finibus pharetra.",
       "assignedto": "Bradley Hall"
     }
+  ],
+  "tasklist": [
+    {
+      "id": "0000506",
+      "priority": "top",
+      "requestclass": "2017-06-20",
+      "name": "new",
+      "description": "Pellentesque ut enim ac sem mollis pharetra quis id arcu. Donec facilisis diam quis eleifend rutrum."
+    }
   ]
 }
