@@ -9,9 +9,16 @@
     },
     "taskviewlink": {
       "type": "action",
-      "selector": ".GDNOS4QBEQ",
+      "selector": "a[id=\"tabbed_nav_link_Landing Page - Tasks\"]",
       "control": "action.link"
     }
   },
-  "connect": []
+  "connect": [
+    {
+      "match": [
+        "ishomeview"
+      ],
+      "action": "taskviewlink"
+    }
+  ]
 }
