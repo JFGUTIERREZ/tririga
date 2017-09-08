@@ -7,7 +7,7 @@
       "control": "exists",
       "selectContains": "Home"
     },
-    "gototaskview": {
+    "taskviewlink": {
       "type": "action",
       "selector": ".GDNOS4QBEQ",
       "control": "action.link"
