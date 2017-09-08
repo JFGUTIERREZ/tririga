@@ -107,6 +107,12 @@
             },
             "description": {
               "type": "string"
+            },
+            "priority": {
+              "type": "string"
+            },
+            "requestclass": {
+              "type": "string"
             }
           }
         }
