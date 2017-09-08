@@ -19,7 +19,8 @@
               "type": "none"
             },
             "selector": "td",
-            "selectIndex": 2
+            "selectIndex": 3,
+            "control": "property.innerText"
           },
           "description": {
             "type": "string",
@@ -27,7 +28,8 @@
               "type": "none"
             },
             "selector": "td",
-            "selectIndex": 3
+            "selectIndex": 4,
+            "control": "property.innerText"
           },
           "priority": {
             "type": "string",
