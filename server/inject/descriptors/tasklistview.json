@@ -28,7 +28,7 @@
               "type": "none"
             },
             "selector": "td",
-            "selectIndex": 4,
+            "selectIndex": 5,
             "control": "property.innerText"
           },
           "priority": {
@@ -37,13 +37,17 @@
               "type": "none"
             },
             "selector": "td",
-            "selectIndex": 5
+            "selectIndex": 6,
+            "control": "property.innerText"
           },
           "requestclass": {
             "type": "string",
             "update": {
               "type": "none"
-            }
+            },
+            "selector": "td",
+            "selectIndex": 4,
+            "control": "property.innerText"
           }
         }
       },
