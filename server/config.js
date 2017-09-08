@@ -1,7 +1,7 @@
 'use strict';
 module.exports = {
     // Start URL that browsing should start at.
-    startURL: 'http://tririga-support.flextronics.com',
+    startURL: 'http://tririga-support.flextronics.com/index.html',
     // Start Method when there is no start URL.  This is fpr when we are doing an API integration,
     // and we don't actually need to load phantom (yet).
     // startMethod: "login.onStart",
@@ -47,7 +47,7 @@ module.exports = {
     //
     // ******* User Agent *******
     // Suffix to add to the user agent string.
-    userAgentSuffix: 'Powwow/1.0',
+    userAgentSuffix: 'Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
     // userAgentReplacement: "Custom user agent string goes here",
     //
     // Viewport configuration
