@@ -6,6 +6,11 @@
       "selector": ".gwt-Anchor",
       "control": "exists",
       "selectContains": "Home"
+    },
+    "gototaskview": {
+      "type": "action",
+      "selector": ".GDNOS4QBEQ",
+      "control": "action.link"
     }
   },
   "connect": []
