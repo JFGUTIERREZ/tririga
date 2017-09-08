@@ -1,0 +1,12 @@
+{
+  "type": "object",
+  "properties": {
+    "ishomeview": {
+      "type": "identifier",
+      "selector": ".gwt-Anchor",
+      "control": "exists",
+      "selectContains": "Home"
+    }
+  },
+  "connect": []
+}
