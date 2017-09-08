@@ -52,6 +52,12 @@
         }
       },
       "selectorAll": "table[summary=\"My Active Tasks\"] tr"
+    },
+    "istaskview": {
+      "type": "identifier",
+      "selector": ".gwt-Anchor",
+      "control": "exists",
+      "selectContains": "Tasks"
     }
   },
   "connect": []
