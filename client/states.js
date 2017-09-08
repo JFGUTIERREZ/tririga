@@ -42,5 +42,14 @@ angular.module('app').config(function ($stateProvider) {
                 }
             }
         }
+    }).state('app.tasklistview', {
+        views: {
+            app: {
+                controller: 'app_tasklistview',
+                templateProvider: function (app) {
+                    return app.templateProvider('app.tasklistview');
+                }
+            }
+        }
     });
 });

@@ -27,6 +27,13 @@
       "sourceScreenId": "app.login.loginclassic",
       "sourceAppId": "universaltemplates",
       "model": "login"
+    },
+    {
+      "id": "tasklistview",
+      "name": "tasklistview",
+      "sourceScreenId": "app.tableviewadvanced.tableviewadvancedcaptivating",
+      "sourceAppId": "universaltemplates",
+      "model": "tasklistview"
     }
   ],
   "sourceAppId": "_blank",
